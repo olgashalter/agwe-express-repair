@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/np27838/temp_git/
+    - /bin/cp -R * $DEPLOYPATH
